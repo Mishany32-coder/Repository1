@@ -4,12 +4,13 @@ import './App.css';
 import React from "react";
 import Fcomponent from "./Fcomponent";
 import Ccomponent from "./Ccomponent";
+import To_Do from "./To_Do";
 
 function App() {
     return (
         <div className="App">
       <header className="App-header">
-         <Ccomponent />
+         <To_Do />
 
           <img src={logo} className="App-logo" alt="logo" />
         <p>

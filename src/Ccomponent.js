@@ -16,6 +16,7 @@ export default class Ccomponent extends Component
     {
         this.setState({name:"Петя"})
     }
+
     handleClick()
     {
             if(this.state.name=="Alex")
