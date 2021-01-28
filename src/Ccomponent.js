@@ -12,6 +12,10 @@ export default class Ccomponent extends Component
 
         this.handleClick=this.handleClick.bind(this);
     }
+    func()
+    {
+        this.setState({name:"Петя"})
+    }
     handleClick()
     {
             if(this.state.name="Alex")
